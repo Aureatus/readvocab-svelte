@@ -41,6 +41,8 @@
 		"node": "20"
 	},
 	"dependencies": {
-		"pdfjs-dist": "^4.0.379"
+		"pdfjs-dist": "^4.0.379",
+		"wink-eng-lite-web-model": "^1.5.2",
+		"wink-nlp": "^1.14.3"
 	}
 }
