@@ -12,7 +12,11 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"test:unit": "vitest",
+		"db:generate" : "drizzle-kit generate:sqlite",
+		"db:push" : "drizzle-kit push:sqlite",
+		"db:update" : "npm run db:generate && npm run db:push",
+		"db:view" : "drizzle-kit studio"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
